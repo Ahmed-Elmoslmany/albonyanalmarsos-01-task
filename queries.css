@@ -548,6 +548,10 @@
     color: rgba(85, 85, 85, 0.091);
   }
 
+  .play-icon {
+    border: 1.5rem solid #fff;
+  }
+
   .footer-logo {
     justify-self: center;
     align-self: center;
@@ -555,10 +559,6 @@
   }
   .end-logo {
     height: 3.8rem;
-  }
-
-  .main-nav-list {
-    margin-top: -100rem;
   }
 
   .des-care {
