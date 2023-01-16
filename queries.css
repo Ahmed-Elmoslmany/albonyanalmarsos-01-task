@@ -74,13 +74,6 @@
     width: 3.2rem;
   }
 
-  .des-g-f {
-    grid-template-columns: 2fr 1fr !important;
-  }
-  .des-img-tab {
-    width: 100%;
-  }
-
   .pricing {
     grid-template-columns: 1fr 1fr;
   }
