@@ -37,7 +37,7 @@
 }
 
 /**************************/
-/* BELOW 900px (Small Tablet) */
+/* BELOW 944px (Small Tablet) */
 /**************************/
 
 @media (max-width: 59em) {
@@ -62,6 +62,48 @@
 
   .hero-img {
     width: 60%;
+  }
+
+  .info {
+    width: 100rem;
+    height: 7rem;
+  }
+
+  .info .icon {
+    height: 3.4rem;
+    width: 3.2rem;
+  }
+
+  .des-g-f {
+    grid-template-columns: 2fr 1fr !important;
+  }
+  .des-img-tab {
+    width: 100%;
+  }
+
+  .pricing {
+    grid-template-columns: 1fr 1fr;
+  }
+  .pricing-header {
+    grid-column: 1/-1;
+  }
+
+  .card {
+    grid-row: 3/2;
+  }
+  .pricing-cards {
+    gap: 1rem;
+  }
+}
+
+/**************************/
+/* BELOW 375 (Small Tablet) */
+/**************************/
+
+@media (max-width: 34em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
   }
 
   /* MOBILE NAVIGATION */
@@ -131,17 +173,6 @@
     margin-right: -8rem;
     font-weight: 700;
     padding: 1.5rem 1rem;
-  }
-}
-
-/**************************/
-/* BELOW 375 (Small Tablet) */
-/**************************/
-
-@media (max-width: 34em) {
-  html {
-    /* 8px / 16px = 0.5 = 50% */
-    font-size: 50%;
   }
   .grid {
     row-gap: 4.8rem;
